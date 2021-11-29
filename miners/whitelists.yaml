@@ -1,0 +1,75 @@
+nodes:
+
+  wl-AWS-AMAZON:
+    inputs: []
+    output: true
+    prototype: aws.AMAZON
+  wl-AWS-CLOUDFRONT:
+    inputs: []
+    output: true
+    prototype: aws.CLOUDFRONT
+  wl-AWS-EC2:
+    inputs: []
+    output: true
+    prototype: aws.EC2
+  wl-AWS-ROUTE53:
+    inputs: []
+    output: true
+    prototype: aws.ROUTE53
+  wl-AWS-ROUTE53_HEALTHCHECKS:
+    inputs: []
+    output: true
+    prototype: aws.ROUTE53_HEALTHCHECKS
+  wl-AWS-S3:
+    inputs: []
+    output: true
+    prototype: aws.S3
+
+  wl-CloudFlare-IPv4:
+    inputs: []
+    output: true
+    prototype: cloudflare.ipv4
+  wl-CloudFlare-IPv6:
+    inputs: []
+    output: true
+    prototype: cloudflare.ipv6
+
+  wl-Fastly-IPv4:
+    inputs: []
+    output: true
+    prototype: fastly.ipv4
+
+  wl-Google-GCENetBlocks:
+    inputs: []
+    output: true
+    prototype: google.GCENetBlocks
+  wl-Google-netBlocks:
+    inputs: []
+    output: true
+    prototype: google.netBlocks
+
+  wl-LIBRAESVA-White_Domains:
+    inputs: []
+    output: true
+    prototype: libraesva.LIBRAESVA_White_Domains
+
+  wl-Microsoft-O365-worldwide-any:
+    inputs: []
+    output: true
+    prototype: o365-api.worldwide-any
+  wl-Microsoft-O365-worldwide-common:
+    inputs: []
+    output: true
+    prototype: o365-api.worldwide-common
+  wl-Microsoft-O365-worldwide-exchange:
+    inputs: []
+    output: true
+    prototype: o365-api.worldwide-exchange
+  wl-Microsoft-O365-worldwide-sharepoint:
+    inputs: []
+    output: true
+    prototype: o365-api.worldwide-sharepoint
+  wl-Microsoft-O365-worldwide-skype:
+    inputs: []
+    output: true
+    prototype: o365-api.worldwide-skype
