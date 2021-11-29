@@ -7,10 +7,12 @@ nodes:
     inputs: []
     output: true
     prototype: ETOpen.compromisedIPs
+
   bl-AlienVault-Reputation:
     inputs: []
     output: true
     prototype: alienvault.reputation
+
   bl-Bambenek-Consulting-DGA-Feed:
     inputs: []
     output: true
@@ -44,10 +46,12 @@ nodes:
     inputs: []
     output: true
     prototype: aws.S3
+
   bl-BinaryDefense-banlist:
     inputs: []
     output: true
     prototype: binarydefense.banlist
+
   bl-BlockList-DE-all:
     inputs: []
     output: true
@@ -96,10 +100,12 @@ nodes:
     inputs: []
     output: true
     prototype: blocklist_net_ua.ipset
+
   bl-BruteForceBlocker-blist:
     inputs: []
     output: true
     prototype: bruteforceblocker.blist
+
   bl-CloudFlare-IPv4:
     inputs: []
     output: true
@@ -108,14 +114,17 @@ nodes:
     inputs: []
     output: true
     prototype: cloudflare.ipv6
+
   bl-DShield-block:
     inputs: []
     output: true
     prototype: dshield.block
+
   bl-Fastly-IPv4:
     inputs: []
     output: true
     prototype: fastly.ipv4
+
   bl-Google-GCENetBlocks:
     inputs: []
     output: true
@@ -124,10 +133,12 @@ nodes:
     inputs: []
     output: true
     prototype: google.netBlocks
+
   bl-GreenSnow-IP:
     inputs: []
     output: true
     prototype: greensnow.IP
+
   bl-FeodoTracker-ipblocklist:
     inputs: []
     output: true
@@ -136,6 +147,7 @@ nodes:
     inputs: []
     output: true
     prototype: feodotracker.badips
+
   bl-ITCERTPA-DOMAINS:
     inputs: []
     output: true
@@ -144,10 +156,12 @@ nodes:
     inputs: []
     output: true
     prototype: itcertpa.IP
+
   bl-ITCERTPA-URLS:
     inputs: []
     output: true
     prototype: itcertpa.URLS
+
   bl-LIBRAESVA-Advertising_Domains:
     inputs: []
     output: true
@@ -176,6 +190,7 @@ nodes:
     inputs: []
     output: true
     prototype: libraesva.LIBRAESVA_White_Domains
+
   bl-malc0de-DOMAINS:
     inputs: []
     output: true
@@ -184,10 +199,12 @@ nodes:
     inputs: []
     output: true
     prototype: malc0de.IP
+
   bl-MalwareDomainList-IP:
     inputs: []
     output: true
     prototype: malwaredomainlist.ip
+
   bl-NoThink-SNMP_IPBL:
     inputs: []
     output: true
@@ -200,6 +217,11 @@ nodes:
     inputs: []
     output: true
     prototype: nothink.Telnet_IPBL
+
+  bl-Microsoft-Azure-cloudIPsWithServiceTags:
+    inputs: []
+    output: true
+    prototype: azure.cloudIPsWithServiceTags
 
   bl-Microsoft-O365-worldwide-any:
     inputs: []
@@ -221,10 +243,12 @@ nodes:
     inputs: []
     output: true
     prototype: o365-api.worldwide-skype
+
   bl-OpenPhish-feed:
     inputs: []
     output: true
     prototype: openphish.feed
+
   bl-Spamhaus-ASNDROP:
     inputs: []
     output: true
@@ -237,6 +261,7 @@ nodes:
     inputs: []
     output: true
     prototype: spamhaus.EDROP
+
   bl-SSLAbuseCH-aggressiveIPblacklist:
     inputs: []
     output: true
@@ -245,6 +270,7 @@ nodes:
     inputs: []
     output: true
     prototype: sslabusech.ipblacklist
+
   bl-SurBL-ThreeLevelTLDS:
     inputs: []
     output: true
@@ -253,14 +279,17 @@ nodes:
     inputs: []
     output: true
     prototype: surbl.Two_Level_TLDS
+
   bl-Tor-exit_addresses:
     inputs: []
     output: true
     prototype: tor.exit_addresses
+
   bl-URLHaus-URL:
     inputs: []
     output: true
     prototype: urlhaus.URL
+
   bl-USOM-DOMAINs:
     inputs: []
     output: true
@@ -273,15 +302,15 @@ nodes:
     inputs: []
     output: true
     prototype: usom.URLs
+
   bl-VirusTotal-notifications:
     inputs: []
     output: true
     prototype: virustotal.notifications
+
   bl-VXVault-URLBL:
     inputs: []
     output: true
     prototype: vxvault.URLBL
-  bl-Microsoft-Azure-cloudIPsWithServiceTags:
-    inputs: []
-    output: true
-    prototype: azure.cloudIPsWithServiceTags
+
+
