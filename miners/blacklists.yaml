@@ -1,0 +1,287 @@
+nodes:
+  bl-ETOpen-blockIPs:
+    inputs: []
+    output: true
+    prototype: ETOpen.blockIPs
+  bl-ETOpen-compromisedIPs:
+    inputs: []
+    output: true
+    prototype: ETOpen.compromisedIPs
+  bl-AlienVault-Reputation:
+    inputs: []
+    output: true
+    prototype: alienvault.reputation
+  bl-Bambenek-Consulting-DGA-Feed:
+    inputs: []
+    output: true
+    prototype: bambenekconsulting.dga_feed
+  bl-Bambenek-Consulting-DGA-Feed-high:
+    inputs: []
+    output: true
+    prototype: bambenekconsulting.dga_feed_high
+
+  bl-AWS-AMAZON:
+    inputs: []
+    output: true
+    prototype: aws.AMAZON
+  bl-AWS-CLOUDFRONT:
+    inputs: []
+    output: true
+    prototype: aws.CLOUDFRONT
+  bl-AWS-EC2:
+    inputs: []
+    output: true
+    prototype: aws.EC2
+  bl-AWS-ROUTE53:
+    inputs: []
+    output: true
+    prototype: aws.ROUTE53
+  bl-AWS-ROUTE53_HEALTHCHECKS:
+    inputs: []
+    output: true
+    prototype: aws.ROUTE53_HEALTHCHECKS
+  bl-AWS-S3:
+    inputs: []
+    output: true
+    prototype: aws.S3
+  bl-BinaryDefense-banlist:
+    inputs: []
+    output: true
+    prototype: binarydefense.banlist
+  bl-BlockList-DE-all:
+    inputs: []
+    output: true
+    prototype: blocklist_de.all
+  bl-BlockList-DE-Apache:
+    inputs: []
+    output: true
+    prototype: blocklist_de.apache
+  bl-BlockList-DE-Bots:
+    inputs: []
+    output: true
+    prototype: blocklist_de.bots
+  bl-BlockList-DE-bruteforcelogin:
+    inputs: []
+    output: true
+    prototype: blocklist_de.bruteforcelogin
+  bl-BlockList-DE-ftp:
+    inputs: []
+    output: true
+    prototype: blocklist_de.ftp
+  bl-BlockList-DE-IMAP:
+    inputs: []
+    output: true
+    prototype: blocklist_de.imap
+  bl-BlockList-DE-ircbot:
+    inputs: []
+    output: true
+    prototype: blocklist_de.ircbot
+  bl-BlockList-DE-mail:
+    inputs: []
+    output: true
+    prototype: blocklist_de.mail
+  bl-BlockList-DE-SIP:
+    inputs: []
+    output: true
+    prototype: blocklist_de.sip
+  bl-BlockList-DE-SSH:
+    inputs: []
+    output: true
+    prototype: blocklist_de.ssh
+  bl-BlockList-DE-StrongIPs:
+    inputs: []
+    output: true
+    prototype: blocklist_de.strongips
+  bl-BlockList-Net-UA-ipset:
+    inputs: []
+    output: true
+    prototype: blocklist_net_ua.ipset
+  bl-BruteForceBlocker-blist:
+    inputs: []
+    output: true
+    prototype: bruteforceblocker.blist
+  bl-CloudFlare-IPv4:
+    inputs: []
+    output: true
+    prototype: cloudflare.ipv4
+  bl-CloudFlare-IPv6:
+    inputs: []
+    output: true
+    prototype: cloudflare.ipv6
+  bl-DShield-block:
+    inputs: []
+    output: true
+    prototype: dshield.block
+  bl-Fastly-IPv4:
+    inputs: []
+    output: true
+    prototype: fastly.ipv4
+  bl-Google-GCENetBlocks:
+    inputs: []
+    output: true
+    prototype: google.GCENetBlocks
+  bl-Google-netBlocks:
+    inputs: []
+    output: true
+    prototype: google.netBlocks
+  bl-GreenSnow-IP:
+    inputs: []
+    output: true
+    prototype: greensnow.IP
+  bl-FeodoTracker-ipblocklist:
+    inputs: []
+    output: true
+    prototype: feodotracker.ipblocklist
+  bl-FeodoTracker-badips:
+    inputs: []
+    output: true
+    prototype: feodotracker.badips
+  bl-ITCERTPA-DOMAINS:
+    inputs: []
+    output: true
+    prototype: itcertpa.DOMAINS
+  bl-ITCERTPA-IP:
+    inputs: []
+    output: true
+    prototype: itcertpa.IP
+  bl-ITCERTPA-URLS:
+    inputs: []
+    output: true
+    prototype: itcertpa.URLS
+  bl-LIBRAESVA-Advertising_Domains:
+    inputs: []
+    output: true
+    prototype: libraesva.LIBRAESVA_Advertising_Domains
+  bl-LIBRAESVA-Advertising_IP4:
+    inputs: []
+    output: true
+    prototype: libraesva.LIBRAESVA_Advertising_IP4
+  bl-LIBRAESVA-Bad_Email_IXHASH:
+    inputs: []
+    output: true
+    prototype: libraesva.LIBRAESVA_Bad_Email_IXHASH
+  bl-LIBRAESVA-Bulk_IP4:
+    inputs: []
+    output: true
+    prototype: libraesva.LIBRAESVA_Bulk_IP4
+  bl-LIBRAESVA-Bulk_Email_Domains:
+    inputs: []
+    output: true
+    prototype: libraesva.LIBRAESVA_Bulk_Email_Domains
+  bl-LIBRAESVA-Malware_Domains:
+    inputs: []
+    output: true
+    prototype: libraesva.LIBRAESVA_Malware_Domains
+  wl-LIBRAESVA-White_Domains:
+    inputs: []
+    output: true
+    prototype: libraesva.LIBRAESVA_White_Domains
+  bl-malc0de-DOMAINS:
+    inputs: []
+    output: true
+    prototype: malc0de.DOMAINS
+  bl-malc0de-IP:
+    inputs: []
+    output: true
+    prototype: malc0de.IP
+  bl-MalwareDomainList-IP:
+    inputs: []
+    output: true
+    prototype: malwaredomainlist.ip
+  bl-NoThink-SNMP_IPBL:
+    inputs: []
+    output: true
+    prototype: nothink.SNMP_IPBL
+  bl-NoThink-SSH_IPBL:
+    inputs: []
+    output: true
+    prototype: nothink.SSH_IPBL
+  bl-NoThink-Telnet_IPBL:
+    inputs: []
+    output: true
+    prototype: nothink.Telnet_IPBL
+
+  bl-Microsoft-O365-worldwide-any:
+    inputs: []
+    output: true
+    prototype: o365-api.worldwide-any
+  bl-Microsoft-O365-worldwide-common:
+    inputs: []
+    output: true
+    prototype: o365-api.worldwide-common
+  bl-Microsoft-O365-worldwide-exchange:
+    inputs: []
+    output: true
+    prototype: o365-api.worldwide-exchange
+  bl-Microsoft-O365-worldwide-sharepoint:
+    inputs: []
+    output: true
+    prototype: o365-api.worldwide-sharepoint
+  bl-Microsoft-O365-worldwide-skype:
+    inputs: []
+    output: true
+    prototype: o365-api.worldwide-skype
+  bl-OpenPhish-feed:
+    inputs: []
+    output: true
+    prototype: openphish.feed
+  bl-Spamhaus-ASNDROP:
+    inputs: []
+    output: true
+    prototype: spamhaus.ASNDROP
+  bl-Spamhaus-DROP:
+    inputs: []
+    output: true
+    prototype: spamhaus.DROP
+  bl-Spamhaus-EDROP:
+    inputs: []
+    output: true
+    prototype: spamhaus.EDROP
+  bl-SSLAbuseCH-aggressiveIPblacklist:
+    inputs: []
+    output: true
+    prototype: sslabusech.aggressiveIPblacklist
+  bl-SSLAbuseCH-ipblacklist:
+    inputs: []
+    output: true
+    prototype: sslabusech.ipblacklist
+  bl-SurBL-ThreeLevelTLDS:
+    inputs: []
+    output: true
+    prototype: surbl.ThreeLevelTLDS
+  bl-SurBL-Two_Level_TLDS:
+    inputs: []
+    output: true
+    prototype: surbl.Two_Level_TLDS
+  bl-Tor-exit_addresses:
+    inputs: []
+    output: true
+    prototype: tor.exit_addresses
+  bl-URLHaus-URL:
+    inputs: []
+    output: true
+    prototype: urlhaus.URL
+  bl-USOM-DOMAINs:
+    inputs: []
+    output: true
+    prototype: usom.DOMAINs
+  bl-USOM-IPs:
+    inputs: []
+    output: true
+    prototype: usom.IPs
+  bl-USOM-URLs:
+    inputs: []
+    output: true
+    prototype: usom.URLs
+  bl-VirusTotal-notifications:
+    inputs: []
+    output: true
+    prototype: virustotal.notifications
+  bl-VXVault-URLBL:
+    inputs: []
+    output: true
+    prototype: vxvault.URLBL
+  bl-Microsoft-Azure-cloudIPsWithServiceTags:
+    inputs: []
+    output: true
+    prototype: azure.cloudIPsWithServiceTags
